@@ -1,0 +1,189 @@
+@font-face {
+  font-family: main;
+  src: url(Akrobat-Regular.otf);
+}
+
+@font-face {
+  font-family: gianni2;
+  src: url(Gobold\ Hollow\ Bold.otf);
+}
+
+
+.titolo {
+  
+  margin-top: 0px;
+  font-size:60px;
+  font-family: gianni2;
+  color: rgb(110, 1, 1);
+  text-align: center;
+  text-shadow: 5px 5px 10px black;
+  
+}
+
+
+
+
+
+.foto1 {
+  position: fixed;
+  margin-left: -880px;
+  margin-top: -220px;
+  align-self: left;
+  align-items: left;
+  position-area: initial;
+  width: 135px;
+  transform:translateX(-50%);
+  display:inline-flex;
+  gap:9px;
+  padding:8px;
+  z-index:1000;
+
+}
+ 
+  
+
+
+ .Biografia1{
+
+  margin-top: -60px;
+  position: fixed;
+  margin-left: 600px;  
+  width: 150px;
+  
+ 
+ }
+
+/* button socials */ 
+
+.main_container {
+  padding-top: 3%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8em;
+  position: fixed;
+  margin-top: -180px;
+  margin-left: 1800px;
+  
+}
+.up {
+  display: flex;
+  flex-direction: row;
+  gap: 0.8em;
+}
+.down {
+  display: flex;
+  flex-direction: row;
+  gap: 0.8em;
+}
+
+.card1 {
+  width: 30px;
+  height: 30px;
+  outline: 5px solid red;
+  border: none;
+  background: rgb(30, 30, 30);
+  border-radius: 30px 5px 5px 5px;
+  box-shadow:
+    rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transition: all 0.2s;
+}
+.card2 {
+  width: 30px;
+  height: 30px;
+  outline: 5px solid rgb(0, 166, 255);
+  border: none;
+  background: rgb(30, 30, 30);
+  border-radius: 5px 30px 5px 5px;
+  box-shadow:
+    rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transition: all 0.2s;
+}
+.card3 {
+  width: 30px;
+  height: 30px;
+  outline: 5px solid rgb(214, 41, 118);
+  border: none;
+  background: rgb(30, 30, 30);
+  border-radius: 5px 5px 5px 30px;
+  box-shadow:
+    rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transition: all 0.2s;
+}
+.card4 {
+  width: 30px;
+  height: 30px;
+  outline: 5px solid rgb(217, 0, 255);
+  border: none;
+  background: rgb(30, 30, 30);
+  border-radius: 5px 5px 30px 5px;
+  box-shadow:
+    rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transition: all 0.2s;
+}
+
+/*Change icons color*/
+.card1:hover .youtube {
+  fill: red;
+}
+
+.card1:hover .youtube_center_Icon {
+  fill: rgb(255, 255, 255);
+}
+
+.card2:hover .discord {
+  fill: rgb(43, 85, 255);
+}
+
+.card3:hover .twitter {
+  fill: rgb(255, 139, 230);
+}
+
+.card4:hover .twitch {
+  fill: rgb(225, 52, 255);
+}
+
+/*Change background color icons*/
+.card1:hover {
+  cursor: pointer;
+  scale: 1.1;
+  background: rgb(161, 0, 0);
+}
+
+.card2:hover {
+  cursor: pointer;
+  scale: 1.1;
+  background: rgb(0, 40, 198);
+}
+
+.card3:hover {
+  cursor: pointer;
+  scale: 1.1;
+  background: rgb(214, 41, 118);
+}
+
+.card4:hover {
+  cursor: pointer;
+  scale: 1.1;
+  background: rgb(169, 0, 199);
+}
+
+/* button socials */ 
+
+
+ 
+
+
+  
+ 
+
+
